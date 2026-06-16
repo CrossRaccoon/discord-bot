@@ -17,7 +17,7 @@ scheduler = AsyncIOScheduler()
 # SQLITE
 # ======================
 
-db = sqlite3.connect("events.db")
+db = sqlite3.connect("/opt/render/project/src/events.db")
 cur = db.cursor()
 
 cur.execute("""

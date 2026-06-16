@@ -5,7 +5,9 @@ from discord import app_commands
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from datetime import datetime
 
-TOKEN = "IDE_A_TOKEN"
+import os
+
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)

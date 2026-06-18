@@ -19,7 +19,7 @@ scheduler = AsyncIOScheduler()
 
 import os
 
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = "MTUxNjQ3Njc1MTY0MTk3MjkxNg.GUn3ys.fUdOMDwaog-d3zK2ndO1XpmuSL-PLVIHtCzb_U"
 
 ALLOWED_ROLE_IDS = {
     # Ide ird be a hasznalatra jogosult Discord rang ID-ket.

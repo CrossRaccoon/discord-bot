@@ -76,7 +76,7 @@ async def ensure_allowed(interaction, guild_id=None):
 # DATABASE
 # ======================
 
-db = sqlite3.connect("events.db", check_same_thread=False)
+db = sqlite3.connect("/opt/render/project/src/events.db")
 cur = db.cursor()
 
 cur.execute("""

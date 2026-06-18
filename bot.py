@@ -76,7 +76,7 @@ async def ensure_allowed(interaction, guild_id=None):
 # DATABASE
 # ======================
 
-db = sqlite3.connect("/opt/render/project/src/events.db")
+db = sqlite3.connect("/cross/discord-bot/events.db")
 cur = db.cursor()
 
 cur.execute("""
